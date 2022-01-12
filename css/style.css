@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comforter+Brush&family=Island+Moments&family=Marck+Script&family=Roboto:ital,wght@1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/forest7.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.text {
+    position: relative; 
+    margin-top: 20%;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    transform: translateY(-50%);
+    /*font-weight: 600;*/
+    line-height: 1.2;
+    font-size: 90px;
+    /*font-family: 'Comforter Brush', cursive;*/
+    font-family: 'Amatic SC', cursive;
+    /*font-family: 'Amatic SC', cursive;*/
+    /*font-family: 'Marck Script';*/
+    color: #ffffff;  
+}
+.menu {
+    /*position: relative;
+    height: 70px;*/
+    /*background-color: #fff;*/
+    opacity: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.bar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10%;
+    text-align: center;
+}
+.bar a {
+    padding: 10%;
+    text-decoration: none;
+    font-size: 35px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+.bar a:hover {
+          color: #f1f1f1;
+}    
+.bar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 80px;
+    margin-left: 50px;
+}

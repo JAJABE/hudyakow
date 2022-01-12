@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>адаптивная верстка</title>
+</head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+<body>
+ <div class = 'background'>
+   <div class = 'menu'>
+            <div id="mySidenav" class="bar">
+                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="index.html">Главная</a>
+                 <a href="first.html">Первая</a>
+                 <a href="second.html">Вторая</a>
+                 <a href="third.html">Третья</a>
+                 <a href="fourth.html">Четвертая</a>
+                 <a href="fifth.html">Пятая</a>
+            </div>
+            <span style="font-size:50px;cursor:pointer;color:white" onclick="openNav()">&#9776; </span>      
+    </div>
+   <!-- <div style="border-bottom: solid 2px #ffffff;"></div> --->
+      <div class = 'text'>Любовь к природе — признак<br>
+морального здоровья в человеке. -<br>
+Конфуций</div>
+ </div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>

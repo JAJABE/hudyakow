@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Первая страница</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class = 'back'>
+		<div class = 'menu'>
+            <div id="mySidenav" class="bar">
+                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="index.html">Главная</a>
+                 <a href="first.html">Первая</a>
+                 <a href="second.html">Вторая</a>
+                 <a href="third.html">Третья</a>
+                 <a href="fourth.html">Четвертая</a>
+                 <a href="fifth.html">Пятая</a>
+            </div>
+            <span style="font-size:50px;cursor:pointer;color:white" onclick="openNav()">&#9776; </span>      
+    </div>
+	</div>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			background-image: url(img/vid2.jpg);
+      height: 100vh;
+      background-size: cover;
+		}
+	</style>
+	<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
